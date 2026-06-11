@@ -1,6 +1,6 @@
 # Sidequest / Vitest IPC Conflict
 
-This is a minimal reproduction of an error where a a test case that directly or transitively imports the [Sidequest.js](https://sidequestjs.com/) engine.
+This is a minimal reproduction of an error where a test case that directly or transitively imports the [Sidequest.js](https://sidequestjs.com/) engine.
 
 By design the worker library calls `process.send("ready")` when a worker is started as a child process, but this happens even if the parent process isn't the Sidequest engine. In some cases that might be cool, but sending a message to Vitest results in a failure.
 
