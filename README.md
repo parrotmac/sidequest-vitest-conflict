@@ -8,7 +8,7 @@ By design the worker library calls `process.send("ready")` when a worker is star
 
 `pure/` contains an example using just Vitest
 
-`sidequest` contains an example with Vitest + Sidequest
+`sidequest/` contains an example with Vitest + Sidequest
 
 ### Example
 
@@ -17,7 +17,7 @@ By design the worker library calls `process.send("ready")` when a worker is star
 > vitest run
 
 
- RUN  v3.2.6 /Users/isaac/Dev/djnv/repro
+ RUN  v3.2.6 /path/to/sidequest-vitest-conflict
 
 
 ⎯⎯⎯⎯ Unhandled Rejection ⎯⎯⎯⎯⎯
