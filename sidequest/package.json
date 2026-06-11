@@ -1,0 +1,12 @@
+{
+  "name": "pure-process-send-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "../node_modules/.bin/vitest run"
+  },
+  "devDependencies": {
+    "vitest": "3.2.6",
+    "sidequest": "1.15.0"
+  }
+}

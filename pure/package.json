@@ -1,9 +1,9 @@
 {
-  "name": "sidequest-vitest-repro",
+  "name": "pure-process-send-repro",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "vitest run"
+    "test": "../node_modules/.bin/vitest run"
   },
   "devDependencies": {
     "vitest": "^3.2.6"
